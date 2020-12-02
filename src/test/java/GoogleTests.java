@@ -15,7 +15,7 @@ public class GoogleTests {
 
     @Test
     public void willGoogleFindQAGuru () {
-
+        open("https://google.com");
         $(byName("q")).val("QAGURU").pressEnter();
         $("#res").shouldHave(text("QAGURU"));
     }
