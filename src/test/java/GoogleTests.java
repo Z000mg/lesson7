@@ -20,3 +20,5 @@ public class GoogleTests {
         $("#res").shouldHave(text("QAGURU"));
     }
 }
+
+// New Test
